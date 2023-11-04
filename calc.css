@@ -14,19 +14,20 @@
     height: 450px;
     background-color: white;
     position: absolute;
-    border: 5px solid rgb(243, 200, 200);
+    border: 15px solid rgb(243, 200, 200);
     border-radius: 25px; 
  }
  .main input[type='text'] {
     width: 88%;
     position: relative;
     height: 60px;
-    top: 5px;
-    text-align: center;
-    padding: none;
+    top: 15px;
+    text-align: right;
+    padding: 10px;
+    padding-bottom: 18px;;
     outline: none;
     font-size: 40px;
-    border: 2px solid rgb(110, 175, 205);
+    border: 5px solid rgb(110, 175, 205);
     display: flex;
     margin: auto;
     border-radius: 25px;
@@ -34,13 +35,13 @@
  }
  .btn input[type='button']{
   
-    width: 90px;
-    padding: 5px;
-    margin: 2px 2px;
+    width: 80px;
+    padding:auto;
+    margin: 5px 5px;
     position:relative;
-   left: 4px;
-    top: 20px;
-    height: 60px;
+    left: 13px;
+    top: 33px;
+    height: 50px;
     cursor: pointer;
     font-size: 20px;
     transition: 0.5s;
